@@ -7,11 +7,9 @@ The idea is recognizing the identity of the word someone says in English through
 It was very clear that the performance of CNN model is better than ANN model as we will discuss in the project. Finally, we can use the detected word to perform certain tasks.
 
 
-Project Screen Shot(s)
-Example:
-[ PRETEND SCREEN SHOT IS HERE ]
+# Project Screen Shot
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![alt text](http://url/to/img.png)
 
 Installation and Setup Instructions
 Example:
