@@ -18,7 +18,7 @@ It was very clear that the performance of CNN model is better than ANN model.
 
 # Project Screen Shot
 
-![This is an image](https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view)
+![This is an image](https://github.com/Mai265/Graduation-Project-Speech-Recognition/blob/main/Capture.PNG)
 
 
 
