@@ -18,7 +18,8 @@ It was very clear that the performance of CNN model is better than ANN model.
 
 # Project Screen Shot
 
-!(https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view)
+<p>![Alt text](https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view)</p>
+
 
 
 
