@@ -1,13 +1,11 @@
 # Speech Recognition
-Example:
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+The aim is to implement a Speech Recognition System for isolated words. 
 
-Project Status
-(only necessary if incomplete)
+The idea is recognizing the identity of the word someone says in English through the microphone and detecting if this word is one of the system words, and which one is it. This is done by extracting features from the recorded audio using Mel-Frequency Cepstral Coefficients (MFCCs) technique. then classifying these features using one of two models: Artificial Neural Network (ANN), or Convolutional Neural Network (CNN). 
 
-Example:
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+It was very clear that the performance of CNN model is better than ANN model as we will discuss in the project. Finally, we can use the detected word to perform certain tasks.
+
 
 Project Screen Shot(s)
 Example:
