@@ -18,7 +18,7 @@ It was very clear that the performance of CNN model is better than ANN model.
 
 # Project Screen Shot
 
-![MarineGEO circle logo](https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view "MarineGEO logo")
+![This is an image](https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view)
 
 
 
