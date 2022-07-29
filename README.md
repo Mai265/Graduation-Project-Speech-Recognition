@@ -1,48 +1,55 @@
 # Speech Recognition
 
-The aim is to implement a Speech Recognition System for isolated words. 
+The aim is to implement a Speech Recognition System for isolated word recognition. 
 
-The idea is recognizing the identity of the word someone says in English through the microphone and detecting if this word is one of the system words, and which one is it. This is done by extracting features from the recorded audio using Mel-Frequency Cepstral Coefficients (MFCCs) technique. then classifying these features using one of two models: Artificial Neural Network (ANN), or Convolutional Neural Network (CNN). 
+The idea is recognizing the identity of the word someone says in English through the microphone and detecting if this word is one of the system words, and which one is it. This is done by extracting features from the recorded audio using Mel-Frequency Cepstral Coefficients (MFCCs) technique. then classifying these features using one of two models: Artificial Neural Network (ANN), or Convolutional Neural Network (CNN). Finally, we use the detected word to perform certain tasks.
 
-It was very clear that the performance of CNN model is better than ANN model as we will discuss in the project. Finally, we can use the detected word to perform certain tasks.
+
+
+# Project Status
+
+We managed to implement the ASR system and choose two applications for it which are Numbering System which can be easily used in numerous real-life applications such as security and dialing systems controlled by the human voice, and the Directions System which will be useful in objects movement control applications like gaming, and self-driving cars.
+
+We implemented each application using two different neural network models(ANN, CNN) and compared between them in terms of performance and accuracy.
+
+It was very clear that the performance of CNN model is better than ANN model.
+
 
 
 # Project Screen Shot
 
-![alt text](http://url/to/img.png)
+![alt text](https://drive.google.com/file/d/1eWP3pbwONNiBw6N5-qfiYrgWMh48FMrL/view)
 
-Installation and Setup Instructions
-Example:
-Clone down this repository. You will need node and npm installed globally on your machine.
 
-Installation:
 
-npm install
+# Installation Instructions
 
-To Run Test Suite:
+You will need Anaconda installed globally on your machine to manage to run the notebook using jupyter.
 
-npm test
 
-To Start Server:
 
-npm start
+# Attachment
 
-To Visit App:
+you can find the CCN models in the following links:
 
-localhost:3000/ideas
+for Commands System:
+https://drive.google.com/file/d/16QB0sYibIHuwSVuDIMLCsNsiPEAKrP4U/view
 
-Reflection
+for Numbers System:
+https://drive.google.com/file/d/1Jq-HF9klBbarMYpU2Ulan0uZb89PlW4k/view
+
+
+
+# Reflection
 What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
 What did you set out to build?
 Why was this project challenging and therefore a really good learning experience?
 What were some unexpected obstacles?
 What tools did you use to implement this project?
 This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.
-Example:
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
 
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the create-react-app boilerplate, then adding react-router-4.0 and redux.
 
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
+This was a Graduation Project built during my last collage year at Faculty of Engineering, Alexandria University, Communication and Electronics section. 
 
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process.
+
+
